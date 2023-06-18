@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>My new Post</title>
-    <link href="/2023/01/10/My-new-Post/"/>
-    <url>/2023/01/10/My-new-Post/</url>
+    <title>2023 数据库课设 环境搭建-pg数据库</title>
+    <link href="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-pg%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <url>/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-pg%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>安装在 Ubuntu22.04 LTS 上 postgresql 15版本</p><p><a href="https://www.postgresql.org/download/linux/ubuntu/">教程</a></p><h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><p>操作方式：</p><ul><li>psql 运行这个软件，在里面交互式操作</li><li>psql 外部直接用命令行操作</li></ul><p>创建用户</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo -u postgres createuser --interactive<br></code></pre></td></tr></table></figure><p>修改用户密码</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo -i -u postgres //登录默认 root 账户<br>psql                //启动 postgresql 命令行交互执行<br>alter user xxx with password &#x27;xxx&#x27;;  //执行 sql 语句<br></code></pre></td></tr></table></figure><p>查看 postgresql 服务运行情况</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">ss -ntl<br>systemctl status postgresql<br></code></pre></td></tr></table></figure><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><blockquote><p>奇怪竟然建了个操作系统的用户当数据库的用户</p></blockquote><p>操作系统用户-&gt;postgreSQL软件用户-&gt;数据库</p>]]></content>
     
     
     
@@ -17,11 +17,11 @@
   
   
   <entry>
-    <title>My-First</title>
-    <link href="/2022/11/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <url>/2022/11/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <title>2023 数据库课设 环境搭建</title>
+    <link href="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <url>/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p>前端 :<br> Vue3 ( HTML CSS JavaScript): 快速编写网页的框架。</p><p>后端 :<br> springboot ( java ): 让网页可以修改，查询数据库数据等的框架。<br> nginx : 运行网页的服务器软件<br> postgresql : 存储 JOSN 数据的数据库软件<br> redis : 缓存数据，查询更快的数据库软件</p>]]></content>
     
     
     
