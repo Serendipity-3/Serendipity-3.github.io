@@ -4,11 +4,50 @@
   
   
   <entry>
+    <title></title>
+    <link href="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-jdk/"/>
+    <url>/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-jdk/</url>
+    
+    <content type="html"><![CDATA[<p>用来运行 SpringBoot 框架写的应用程序</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-nginx/"/>
+    <url>/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-nginx/</url>
+    
+    <content type="html"><![CDATA[<p>托管网页，把网页发给用户的浏览器等牛X功能</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-redis/"/>
+    <url>/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-redis/</url>
+    
+    <content type="html"><![CDATA[<p>内存数据库，支持多种数据结构，如字符串、哈希、列表、集合和有序集合，可以作为缓存加快数据的读写  </p><p>类似 Cache 缓存了 postgresql 里的常用数据，找不到在去 postgresql</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023 数据库课设 环境搭建-总纲</title>
     <link href="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%80%BB%E7%BA%B2/"/>
     <url>/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%80%BB%E7%BA%B2/</url>
     
-    <content type="html"><![CDATA[<h2 id="用到的工具"><a href="#用到的工具" class="headerlink" title="用到的工具"></a>用到的工具</h2><h3 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h3><p> <strong>Vue3</strong> : 快速编写网页的 javascript 框架  </p><h3 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h3><p> <strong>springboot</strong> : 让网页可以修改，查询数据库数据的 java 框架，别人写好的 java 代码直接拿来用<br> <strong>jdk</strong> : 运行 java 程序<br> <strong>nginx</strong> : 运行网页，处理请求的服务软件<br> <strong>postgresql</strong> : 可以存储 JOSN 等数据的数据库软件<br> <strong>redis</strong> : 缓存数据，查询更快的数据库软件  </p><h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><p><strong>腾讯云 Ubuntu22.04 LTS</strong> : 租的一台可以24小时运行的电脑，OS 为 Ubuntu 属于 linux  </p><h2 id="工具的位置"><a href="#工具的位置" class="headerlink" title="工具的位置"></a>工具的位置</h2><p>安装在服务器上 24 小时运行的软件 : nginx, postgresql, redis, java编的程序  </p><p>放在服务器上的 nginx 里 : Vue3 生成的网页  </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="用到的工具"><a href="#用到的工具" class="headerlink" title="用到的工具"></a>用到的工具</h2><h3 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h3><p> <strong>Vue3</strong> : 快速编写网页的 javascript 框架  </p><h3 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h3><p> <strong>springboot</strong> : 让网页可以修改，查询数据库数据的 java 框架，别人写好的 java 代码直接拿来用<br> <strong>jdk</strong> : 运行 java 程序<br> <strong>nginx</strong> : 处理用户的浏览器请求，将网页( HTML CSS JavaScript) 发给用户的 web 服务软件<br> <strong>postgresql</strong> : 存储项目数据的数据库软件<br> <strong>redis</strong> : 缓存 postgresql 的数据，加速读写数据的数据库软件    </p><h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><p><strong>腾讯云 Ubuntu22.04 LTS</strong> : 租的一台可以24小时运行的电脑，OS 为 Ubuntu 属于 linux  </p><h2 id="工具的位置"><a href="#工具的位置" class="headerlink" title="工具的位置"></a>工具的位置</h2><p>安装在服务器上 24 小时运行的软件 : nginx, postgresql, redis, java编的程序    </p><p>放在服务器上的 nginx 里 : Vue3 生成的网页( HTML CSS JavaScript)   </p><p>Vue3 可以在自己电脑上编写将编译生成的的网页放到服务器上  </p><h2 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h2><blockquote><p><a href="https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/How_the_Web_works">web 入门教程</a></p></blockquote>]]></content>
     
     
     
@@ -21,7 +60,7 @@
     <link href="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/"/>
     <url>/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/</url>
     
-    <content type="html"><![CDATA[<p><a href="https://cloud.tencent.com/">在腾讯云上注册账户，免费体验 1个月 轻量级应用服务器</a></p><p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/tiyan.gif"></p><h2 id="修改密码"><a href="#修改密码" class="headerlink" title="修改密码"></a>修改密码</h2><h2 id="开放端口"><a href="#开放端口" class="headerlink" title="开放端口"></a>开放端口</h2><h2 id="租域名"><a href="#租域名" class="headerlink" title="租域名"></a>租域名</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="租服务器"><a href="#租服务器" class="headerlink" title="租服务器"></a>租服务器</h2><p><a href="https://cloud.tencent.com/act/free/personal?from=20417">在腾讯云上注册账户，免费体验 1个月 轻量级应用服务器</a></p><p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/tiyan.png"></p><p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/tiyan.gif"></p><h2 id="修改用户名密码"><a href="#修改用户名密码" class="headerlink" title="修改用户名密码"></a>修改用户名密码</h2><p>登录后开始页面</p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/qing.png"><p>服务器页面</p><p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/geng.png"></p><p>修改</p><p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/"></p><h2 id="远程连接"><a href="#远程连接" class="headerlink" title="远程连接"></a>远程连接</h2><p>有多种远程连接，可以网上找一找，其中一种是 Xshell7</p><p>用 [Xshell7](<a href="https://www.exception.site/essay/xshell7-pojie">Xshell 7 破解版免费下载（亲测好用） - 异常教程 (exception.site)</a>) 软件通过 IP 地址( 确定你的电脑在哪)  + 用户名 + 密码远程登录</p><blockquote><p>[Xshell7 使用教程](<a href="https://zhuanlan.zhihu.com/p/475074875">Xshell 7使用教程 - 知乎 (zhihu.com)</a>)</p></blockquote><h2 id="开放端口"><a href="#开放端口" class="headerlink" title="开放端口"></a>开放端口</h2><p>ip + 端口: 用于确认那台电脑上的那个应用程序</p><p>postgresql, nginx, redis 安装完默认启动且有默认端口号  </p><p>在防火墙将端口开放给所有人，可以远程操控  </p><p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/fang.png"></p><p>开放在 postgresql 配置文件里写的端口</p><p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/kai.gif"></p><p>其他的端口开放类似</p><h2 id><a href="#" class="headerlink" title></a></h2><h2 id="租域名"><a href="#租域名" class="headerlink" title="租域名"></a>租域名</h2>]]></content>
     
     
     
