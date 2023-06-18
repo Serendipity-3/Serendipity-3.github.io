@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>2023 数据库课设 环境搭建-服务器篇</title>
+    <link href="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/"/>
+    <url>/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023 数据库课设 环境搭建-pg数据库</title>
     <link href="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-pg%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     <url>/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-pg%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
@@ -18,8 +31,8 @@
   
   <entry>
     <title>2023 数据库课设 环境搭建</title>
-    <link href="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    <url>/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
+    <link href="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%80%BB%E7%BA%B2/"/>
+    <url>/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%80%BB%E7%BA%B2/</url>
     
     <content type="html"><![CDATA[<p>前端 :<br> Vue3 ( HTML CSS JavaScript): 快速编写网页的框架。</p><p>后端 :<br> springboot ( java ): 让网页可以修改，查询数据库数据等的框架。<br> nginx : 运行网页的服务器软件<br> postgresql : 存储 JOSN 数据的数据库软件<br> redis : 缓存数据，查询更快的数据库软件</p>]]></content>
     
