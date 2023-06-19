@@ -34,7 +34,7 @@
     <link href="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-Idea/"/>
     <url>/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-Idea/</url>
     
-    <content type="html"><![CDATA[<p>java 开发环境 开发 SpringBoot</p><p>安装在自己电脑上</p><p>教程 : <a href="https://www.exception.site/essay/idea-yongjiu-jihuoma">https://www.exception.site/essay/idea-yongjiu-jihuoma</a></p><h2 id="提前需求"><a href="#提前需求" class="headerlink" title="提前需求"></a>提前需求</h2><p>服务器上 24 小时运行着 postgresql</p><p>服务器开放 5432 的 postgresql 的端口</p><h2 id="连接数据库"><a href="#连接数据库" class="headerlink" title="连接数据库"></a>连接数据库</h2>]]></content>
+    <content type="html"><![CDATA[<p>java 开发环境 开发 SpringBoot</p><p>安装在自己电脑上</p><p>教程 : <a href="https://www.exception.site/essay/idea-yongjiu-jihuoma">https://www.exception.site/essay/idea-yongjiu-jihuoma</a></p><h2 id="提前需求"><a href="#提前需求" class="headerlink" title="提前需求"></a>提前需求</h2><p>服务器上 24 小时运行着 postgresql 且 pg 的端口是 5432</p><p>服务器开放 5432 的 postgresql 的端口</p><h2 id="连接数据库"><a href="#连接数据库" class="headerlink" title="连接数据库"></a>连接数据库</h2><p>连接 pg 数据库，查询里面的 people 表</p><p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-Idea/lian.png"></p>]]></content>
     
     
     
