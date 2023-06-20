@@ -4,11 +4,24 @@
   
   
   <entry>
+    <title>2023-数据库课设-后端-SpringBoot3</title>
+    <link href="/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3/"/>
+    <url>/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>[Spring 官网 介绍版本差别](<a href="https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0">Preparing for Spring Boot 3.0</a>)</p><p><a href="https://www.zhihu.com/question/549728751">知乎-springboot 框架中版本有 snapshot 有什么含义？</a></p><p>[掘金-Spring Boot 版本之间差别](<a href="https://juejin.cn/post/7229577185274314811">聊聊Spring Boot几个版本的区别 - 掘金 (juejin.cn)</a>)</p><p>[Spring 官网对各个版本的支持情况](<a href="https://spring.io/projects/spring-boot#support">Spring Boot</a>)</p><p>[Spirng 官方仓库对版本更新时间的描述](<a href="https://github.com/spring-projects/spring-boot/wiki/Supported-Versions">Supported Versions · spring-projects&#x2F;spring-boot Wiki (github.com)</a>)</p><p>[Spring 官网稳定版本与快照版本](<a href="https://spring.io/projects/spring-boot#learn">Spring Boot</a>)</p></blockquote><p><img src="/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3/spring.png"></p><p>故选用 Spring Boot 3.1.0 稳定版本</p><h2 id="项目构建"><a href="#项目构建" class="headerlink" title="项目构建"></a>项目构建</h2><h3 id="通过官网构建"><a href="#通过官网构建" class="headerlink" title="通过官网构建"></a>通过官网构建</h3><p><img src="/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3/init.png"></p><h3 id="在-IDEA-中构建"><a href="#在-IDEA-中构建" class="headerlink" title="在 IDEA 中构建"></a>在 IDEA 中构建</h3>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023 数据库课设-前端-Vue3入门</title>
     <link href="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3%E5%85%A5%E9%97%A8/"/>
     <url>/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3%E5%85%A5%E9%97%A8/</url>
     
-    <content type="html"><![CDATA[<h2 id="构建-Vue3-项目工具"><a href="#构建-Vue3-项目工具" class="headerlink" title="构建 Vue3 项目工具"></a>构建 Vue3 项目工具</h2><p><a href="https://cn.vuejs.org/guide/scaling-up/tooling.html#try-it-online">官网构建工具介绍</a></p><p>此处选用 Vite 创建项目</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm init vue@latest<br></code></pre></td></tr></table></figure><p>按照步骤创建好项目，并且运行后</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">npm <span class="hljs-built_in">run</span> dev<br></code></pre></td></tr></table></figure><p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3%E5%85%A5%E9%97%A8/begin.png"></p><h2 id="构建网页"><a href="#构建网页" class="headerlink" title="构建网页"></a>构建网页</h2><p>编译生成的实例代码，得到的网页在项目下的 dist 目录里</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm run build<br></code></pre></td></tr></table></figure><p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3%E5%85%A5%E9%97%A8/dist.png"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="构建-Vue3-项目工具"><a href="#构建-Vue3-项目工具" class="headerlink" title="构建 Vue3 项目工具"></a>构建 Vue3 项目工具</h2><p><a href="https://cn.vuejs.org/guide/scaling-up/tooling.html#try-it-online">Vue 官网构建工具介绍</a></p><p>此处选用 Vite 创建项目</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm init vue@latest<br></code></pre></td></tr></table></figure><p>按照步骤创建好项目，并且运行后</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">npm <span class="hljs-built_in">run</span> dev<br></code></pre></td></tr></table></figure><p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3%E5%85%A5%E9%97%A8/begin.png"></p><h2 id="构建网页"><a href="#构建网页" class="headerlink" title="构建网页"></a>构建网页</h2><p>编译生成的实例代码，得到的网页在项目下的 dist 目录里</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm run build<br></code></pre></td></tr></table></figure><p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3%E5%85%A5%E9%97%A8/dist.png"></p>]]></content>
     
     
     
@@ -47,7 +60,7 @@
     <link href="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-jdk/"/>
     <url>/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-jdk/</url>
     
-    <content type="html"><![CDATA[<p>运行 SpringBoot 的 java 代码, 我用的是 jdk-11 版本</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt update<br>sudo apt install openjdk-11-jdk<br>java --version<br></code></pre></td></tr></table></figure><p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-jdk/java.png"></p>]]></content>
+    <content type="html"><![CDATA[<p>运行 SpringBoot3 的 java 代码, 最低需要 java 17 版本</p><p>[Spring Boot 版本之间差别](<a href="https://juejin.cn/post/7229577185274314811">聊聊Spring Boot几个版本的区别 - 掘金 (juejin.cn)</a>)</p><p>[Spring 官网介绍](<a href="https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0">Preparing for Spring Boot 3.0</a>)</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt update<br>sudo apt install openjdk-17-jdk<br>java --version<br></code></pre></td></tr></table></figure><p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-jdk/java.png"></p>]]></content>
     
     
     
