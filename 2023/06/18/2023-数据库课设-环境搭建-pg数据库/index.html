@@ -34,7 +34,7 @@
 <meta property="og:image" content="http://example.com/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-pg%E6%95%B0%E6%8D%AE%E5%BA%93/pomi.png">
 <meta property="og:image" content="http://example.com/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-pg%E6%95%B0%E6%8D%AE%E5%BA%93/exti.png">
 <meta property="article:published_time" content="2023-06-18T09:38:54.000Z">
-<meta property="article:modified_time" content="2023-06-20T02:45:58.537Z">
+<meta property="article:modified_time" content="2023-06-20T14:09:15.732Z">
 <meta property="article:author" content="Yuan">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-pg%E6%95%B0%E6%8D%AE%E5%BA%93/lianjie.png">
@@ -340,8 +340,10 @@
 
 
 
-<p>登录 postgresql，默认用户名 postgres</p>
+<p>登录 pg 数据库，默认用户名 postgres，这里会进入到 psql 界面中</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">sudo -u postgres psql</span><br></code></pre></td></tr></table></figure>
+
+
 
 <p>在 psql 里输入以下内容 密码随意</p>
 <figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs pgsql"><span class="hljs-keyword">alter</span> <span class="hljs-keyword">user</span> postgres <span class="hljs-keyword">with</span> <span class="hljs-keyword">password</span> <span class="hljs-string">&#x27;密码&#x27;</span>;<br></code></pre></td></tr></table></figure>

@@ -16,20 +16,24 @@
   <meta name="author" content="Yuan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="前置需要 电脑上安装 node 软件，并配置好 稍微了解网页构成 HTML CSS JavaScript Windows 在命令行操作  构建 Vue3 项目工具Vue 官网构建工具介绍 此处选用 Vite 创建项目 1npm init vue@latest  按照步骤创建好项目，并且运行后 1npm run dev     待补充 构建网页编译生成的实例代码，得到的网页在项目下的 dist 目录">
+    <meta name="description" content="前置需要 电脑上安装 node 软件，并配置好 稍微了解网页构成 HTML CSS JavaScript Windows 在命令行操作  构建 Vue3 项目Vue 官网构建工具介绍 可以看官网用 vite 构建项目的教程 此处选用 Vite 创建项目 找一个自己放代码的目录然后打开 powershell 或 cmd 等命令行窗口  确保 shell 在这个目录中  命令行窗口中运行命令，之后有几">
 <meta property="og:type" content="article">
 <meta property="og:title" content="2023 数据库课设-前端-Vue3">
 <meta property="og:url" content="http://example.com/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/index.html">
 <meta property="og:site_name" content="我的博客">
-<meta property="og:description" content="前置需要 电脑上安装 node 软件，并配置好 稍微了解网页构成 HTML CSS JavaScript Windows 在命令行操作  构建 Vue3 项目工具Vue 官网构建工具介绍 此处选用 Vite 创建项目 1npm init vue@latest  按照步骤创建好项目，并且运行后 1npm run dev     待补充 构建网页编译生成的实例代码，得到的网页在项目下的 dist 目录">
+<meta property="og:description" content="前置需要 电脑上安装 node 软件，并配置好 稍微了解网页构成 HTML CSS JavaScript Windows 在命令行操作  构建 Vue3 项目Vue 官网构建工具介绍 可以看官网用 vite 构建项目的教程 此处选用 Vite 创建项目 找一个自己放代码的目录然后打开 powershell 或 cmd 等命令行窗口  确保 shell 在这个目录中  命令行窗口中运行命令，之后有几">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/gou.png">
+<meta property="og:image" content="http://example.com/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/deng.png">
+<meta property="og:image" content="http://example.com/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/run.gif">
+<meta property="og:image" content="http://example.com/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/yunxing.png">
 <meta property="og:image" content="http://example.com/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/begin.png">
 <meta property="og:image" content="http://example.com/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/dist.png">
 <meta property="article:published_time" content="2023-06-19T11:41:47.000Z">
-<meta property="article:modified_time" content="2023-06-20T02:40:38.434Z">
+<meta property="article:modified_time" content="2023-06-20T15:07:46.632Z">
 <meta property="article:author" content="Yuan">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/begin.png">
+<meta name="twitter:image" content="http://example.com/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/gou.png">
   
   
   
@@ -221,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          183 字
+          345 字
         
       </span>
     
@@ -232,7 +236,7 @@
         
         
         
-          2 分钟
+          3 分钟
         
       </span>
     
@@ -280,18 +284,37 @@
 <p>稍微了解网页构成 HTML CSS JavaScript</p>
 <p>Windows 在命令行操作</p>
 </blockquote>
-<h2 id="构建-Vue3-项目工具"><a href="#构建-Vue3-项目工具" class="headerlink" title="构建 Vue3 项目工具"></a>构建 Vue3 项目工具</h2><p><a target="_blank" rel="noopener" href="https://cn.vuejs.org/guide/scaling-up/tooling.html#try-it-online">Vue 官网构建工具介绍</a></p>
+<h2 id="构建-Vue3-项目"><a href="#构建-Vue3-项目" class="headerlink" title="构建 Vue3 项目"></a>构建 Vue3 项目</h2><p><a target="_blank" rel="noopener" href="https://cn.vuejs.org/guide/scaling-up/tooling.html#try-it-online">Vue 官网构建工具介绍</a></p>
+<p><a target="_blank" rel="noopener" href="https://cn.vuejs.org/guide/quick-start.html#creating-a-vue-application">可以看官网用 vite 构建项目的教程</a></p>
 <p>此处选用 Vite 创建项目</p>
+<p>找一个自己放代码的目录然后打开 powershell 或 cmd 等命令行窗口</p>
+<p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/gou.png" srcset="/img/loading.gif" lazyload></p>
+<p>确保 shell 在这个目录中</p>
+<p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/deng.png" srcset="/img/loading.gif" lazyload></p>
+<p>命令行窗口中运行命令，之后有几次回车确认</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm init vue@latest<br></code></pre></td></tr></table></figure>
 
-<p>按照步骤创建好项目，并且运行后</p>
+<p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/run.gif" srcset="/img/loading.gif" lazyload></p>
+<p>分别运行图中出现的绿色的命令</p>
+<p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/yunxing.png" srcset="/img/loading.gif" lazyload></p>
+<p>进入项目目录，我的项目名是 myproject</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> myproject<br></code></pre></td></tr></table></figure>
+
+
+
+<p>安装代码包</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">npm <span class="hljs-keyword">install</span><br></code></pre></td></tr></table></figure>
+
+
+
+<p>运行项目，下图中浏览器地址栏中访问 shell 中出现的地址</p>
 <figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">npm <span class="hljs-built_in">run</span> dev<br></code></pre></td></tr></table></figure>
 
 
 
 <p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/begin.png" srcset="/img/loading.gif" lazyload></p>
 <p>待补充</p>
-<h2 id="构建网页"><a href="#构建网页" class="headerlink" title="构建网页"></a>构建网页</h2><p>编译生成的实例代码，得到的网页在项目下的 dist 目录里</p>
+<h2 id="构建网页"><a href="#构建网页" class="headerlink" title="构建网页"></a>构建网页</h2><p>编译 Vue3 实例代码得到网页，网页在项目下的 dist 目录里</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm run build<br></code></pre></td></tr></table></figure>
 
 <p><img src="/2023/06/19/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%89%8D%E7%AB%AF-Vue3/dist.png" srcset="/img/loading.gif" lazyload></p>
