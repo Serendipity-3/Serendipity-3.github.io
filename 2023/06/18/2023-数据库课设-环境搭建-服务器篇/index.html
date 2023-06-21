@@ -16,12 +16,12 @@
   <meta name="author" content="Yuan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="以后的软件和最终代码运行在服务器上 租服务器在腾讯云上注册账户，免费体验 1个月 轻量级应用服务器  注册的服务器 OS 用 ubuntu 22.04 LTS  修改用户名密码登录后开始页面   服务器页面  修改密码, 用户名系统默认   远程连接有多种远程连接，可以网上找一找 下面有两种 腾讯云直接在浏览器连接服务器  连接成功界面  Xshell7 远程连接用 Xshell7 软件通过 IP">
+    <meta name="description" content="以后的软件和最终代码运行在服务器上 租服务器在腾讯云上注册账户，免费体验 1个月 轻量级应用服务器  注册的服务器 OS 用 ubuntu 22.04 LTS  修改用户名密码登录后开始的页面   服务器的页面  修改密码, 用户名系统默认 ubuntu   远程连接有多种远程连接，可以网上找一找 下面有两种 腾讯云直接在浏览器连接服务器  连接成功的界面  Xshell7 远程连接  Xshel">
 <meta property="og:type" content="article">
 <meta property="og:title" content="2023 数据库课设 环境搭建-服务器篇">
 <meta property="og:url" content="http://example.com/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/index.html">
 <meta property="og:site_name" content="我的博客">
-<meta property="og:description" content="以后的软件和最终代码运行在服务器上 租服务器在腾讯云上注册账户，免费体验 1个月 轻量级应用服务器  注册的服务器 OS 用 ubuntu 22.04 LTS  修改用户名密码登录后开始页面   服务器页面  修改密码, 用户名系统默认   远程连接有多种远程连接，可以网上找一找 下面有两种 腾讯云直接在浏览器连接服务器  连接成功界面  Xshell7 远程连接用 Xshell7 软件通过 IP">
+<meta property="og:description" content="以后的软件和最终代码运行在服务器上 租服务器在腾讯云上注册账户，免费体验 1个月 轻量级应用服务器  注册的服务器 OS 用 ubuntu 22.04 LTS  修改用户名密码登录后开始的页面   服务器的页面  修改密码, 用户名系统默认 ubuntu   远程连接有多种远程连接，可以网上找一找 下面有两种 腾讯云直接在浏览器连接服务器  连接成功的界面  Xshell7 远程连接  Xshel">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/tiyan.png">
 <meta property="og:image" content="http://example.com/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/tiyan.gif">
@@ -44,7 +44,7 @@
 <meta property="og:image" content="http://example.com/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/yuming.png">
 <meta property="og:image" content="http://example.com/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/bei.png">
 <meta property="article:published_time" content="2023-06-18T10:25:49.000Z">
-<meta property="article:modified_time" content="2023-06-21T13:18:51.260Z">
+<meta property="article:modified_time" content="2023-06-21T13:31:22.993Z">
 <meta property="article:author" content="Yuan">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/tiyan.png">
@@ -239,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          587 字
+          597 字
         
       </span>
     
@@ -298,29 +298,30 @@
 <p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/tiyan.png" srcset="/img/loading.gif" lazyload></p>
 <p>注册的服务器 OS 用 ubuntu 22.04 LTS</p>
 <p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/tiyan.gif" srcset="/img/loading.gif" lazyload></p>
-<h2 id="修改用户名密码"><a href="#修改用户名密码" class="headerlink" title="修改用户名密码"></a>修改用户名密码</h2><p>登录后开始页面</p>
+<h2 id="修改用户名密码"><a href="#修改用户名密码" class="headerlink" title="修改用户名密码"></a>修改用户名密码</h2><p>登录后开始的页面</p>
 <img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/qing.png" srcset="/img/loading.gif" lazyload>
 
-<p>服务器页面</p>
+<p>服务器的页面</p>
 <p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/geng.png" srcset="/img/loading.gif" lazyload></p>
-<p>修改密码, 用户名系统默认</p>
+<p>修改密码, 用户名系统默认 ubuntu</p>
 <p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/chong.gif" srcset="/img/loading.gif" lazyload></p>
 <p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/yonghu.png" srcset="/img/loading.gif" lazyload></p>
 <h2 id="远程连接"><a href="#远程连接" class="headerlink" title="远程连接"></a>远程连接</h2><p>有多种远程连接，可以网上找一找</p>
 <p>下面有两种</p>
 <h3 id="腾讯云直接在浏览器连接服务器"><a href="#腾讯云直接在浏览器连接服务器" class="headerlink" title="腾讯云直接在浏览器连接服务器"></a>腾讯云直接在浏览器连接服务器</h3><p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/yuancheng.png" srcset="/img/loading.gif" lazyload></p>
 <p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/denglu.png" srcset="/img/loading.gif" lazyload></p>
-<p>连接成功界面</p>
+<p>连接成功的界面</p>
 <p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/jiemian.png" srcset="/img/loading.gif" lazyload></p>
-<h3 id="Xshell7-远程连接"><a href="#Xshell7-远程连接" class="headerlink" title="Xshell7 远程连接"></a>Xshell7 远程连接</h3><p>用 <a target="_blank" rel="noopener" href="https://www.exception.site/essay/xshell7-pojie">Xshell7</a> 软件通过 IP 地址 + 端口22  + 用户名 + 密码远程登录</p>
+<h3 id="Xshell7-远程连接"><a href="#Xshell7-远程连接" class="headerlink" title="Xshell7 远程连接"></a>Xshell7 远程连接</h3><blockquote>
+<p> <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/475074875">Xshell7 使用教程</a></p>
+</blockquote>
+<p>用 <a target="_blank" rel="noopener" href="https://www.exception.site/essay/xshell7-pojie">Xshell7</a> 软件通过 IP 地址 + 端口22  + 用户名 + 密码远程登录</p>
 <p>端口 22 : 远程连接程序</p>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/475074875">Xshell7 使用教程</a></p>
 <p>服务器公网 IP 位置</p>
 <p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/gong1.png" srcset="/img/loading.gif" lazyload></p>
 <p>主机里填服务器的公网 IP，第一栏的名称随意</p>
 <p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/lian1.png" srcset="/img/loading.gif" lazyload></p>
-<p>填写用户名密码, 服务器默认的用户名 ubuntu，自己设的密码</p>
-<p>最后连接</p>
+<p>填写用户名密码, 服务器默认的用户名 ubuntu，自己设的密码，最后连接</p>
 <p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/lian2.png" srcset="/img/loading.gif" lazyload></p>
 <p>结果</p>
 <p><img src="/2023/06/18/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/lian4.png" srcset="/img/loading.gif" lazyload></p>
