@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>2023 数据库课设 环境搭建-git</title>
+    <link href="/2023/06/22/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-git/"/>
+    <url>/2023/06/22/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-git/</url>
+    
+    <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote><p><a href="https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/">为什么使用 Git </a></p></blockquote><p>远程仓库，…</p><p>暂存区，本地仓库，分支，标签，…</p><h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p>廖雪峰的官方网站的教程是先教本地 Git 操作，再连接Gitee&#x2F;Github 远程操作</p><p>CS 自学教程大多是英文的资料，而且有些要翻墙</p><p>图形化学习 Git 很 nice ，搭配廖雪峰Git 更佳</p><blockquote><p><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站 (liaoxuefeng.com)</a></p><p><a href="https://learngitbranching.js.org/?locale=zh_CN">图形化学习 Git </a></p><p><a href="https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/">Git - CS自学指南 (csdiy.wiki)</a></p></blockquote><h2 id="记录一下常用命令"><a href="#记录一下常用命令" class="headerlink" title="记录一下常用命令"></a>记录一下常用命令</h2><p>设置 Git</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">git config --global user.name=&quot;xxx&quot;<br>git config --global user.email=&quot;xxx&quot;<br></code></pre></td></tr></table></figure><p>代码管理</p><figure class="highlight shell"><figcaption><span>Session</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs Shell">git clone 仓库地址 [可选 克隆到哪里]<br><br>git add .<br>git commit -m &quot;xxx&quot;<br>git push<br><br><br>git checkout <br>git switch <br>git switch -c <br><br>git reset<br>git revert<br><br>git merge<br></code></pre></td></tr></table></figure><p>状态查看</p><figure class="highlight shell"><figcaption><span>Session</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Shell">git remote -v<br><br>git branch -a<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>环境搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>环境搭建</tag>
+      
+      <tag>git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>2023-数据库课设-环境搭建-maven</title>
     <link href="/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-maven/"/>
     <url>/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-maven/</url>
