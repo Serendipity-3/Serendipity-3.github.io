@@ -16,16 +16,19 @@
   <meta name="author" content="Yuan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="前置             SpringBoot 基本用 java 写，要会 java 基本操作配置 Maven 这个 java 代码包管理软件                待补充 介绍由于不知道版本号后的 SNAPSHOOT 是什么，所以去查了一下  Spring 官网 介绍版本差别 知乎-springboot 框架中版本有 snapshot 有什么含义？ 掘金-Spring Boot 版本">
+    <meta name="description" content="前置需要             SpringBoot 基本用 java 写，要会 java 基本操作[配置了 Maven](2023-数据库课设-环境搭建-maven - 我的博客 (gitee.io)) 这个 java 代码包管理软件               待补充 介绍由于不知道版本号后的 SNAPSHOOT 是什么，所以去查了一下  Spring 官网 介绍版本差别 知乎-spring">
 <meta property="og:type" content="article">
 <meta property="og:title" content="2023-数据库课设-后端-SpringBoot3启动">
 <meta property="og:url" content="http://example.com/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3%E5%90%AF%E5%8A%A8/index.html">
 <meta property="og:site_name" content="我的博客">
-<meta property="og:description" content="前置             SpringBoot 基本用 java 写，要会 java 基本操作配置 Maven 这个 java 代码包管理软件                待补充 介绍由于不知道版本号后的 SNAPSHOOT 是什么，所以去查了一下  Spring 官网 介绍版本差别 知乎-springboot 框架中版本有 snapshot 有什么含义？ 掘金-Spring Boot 版本">
+<meta property="og:description" content="前置需要             SpringBoot 基本用 java 写，要会 java 基本操作[配置了 Maven](2023-数据库课设-环境搭建-maven - 我的博客 (gitee.io)) 这个 java 代码包管理软件               待补充 介绍由于不知道版本号后的 SNAPSHOOT 是什么，所以去查了一下  Spring 官网 介绍版本差别 知乎-spring">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3%E5%90%AF%E5%8A%A8/spring.png">
+<meta property="og:image" content="http://example.com/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3%E5%90%AF%E5%8A%A8/create.png">
+<meta property="og:image" content="http://example.com/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3%E5%90%AF%E5%8A%A8/start.png">
+<meta property="og:image" content="http://example.com/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3%E5%90%AF%E5%8A%A8/result.png">
 <meta property="article:published_time" content="2023-06-20T01:26:15.000Z">
-<meta property="article:modified_time" content="2023-06-22T03:21:35.988Z">
+<meta property="article:modified_time" content="2023-06-22T05:22:14.805Z">
 <meta property="article:author" content="Yuan">
 <meta property="article:tag" content="SpringBoot3">
 <meta name="twitter:card" content="summary_large_image">
@@ -221,7 +224,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          275 字
+          656 字
         
       </span>
     
@@ -232,7 +235,7 @@
         
         
         
-          3 分钟
+          6 分钟
         
       </span>
     
@@ -285,8 +288,8 @@
             
               <div class="markdown-body">
                 
-                <h2 id="前置"><a href="#前置" class="headerlink" title="前置"></a>前置</h2><div class="note note-light">
-            <p>SpringBoot 基本用 java 写，要会 java 基本操作</p><p>配置 Maven 这个 java 代码包管理软件 </p>
+                <h2 id="前置需要"><a href="#前置需要" class="headerlink" title="前置需要"></a>前置需要</h2><div class="note note-light">
+            <ul><li><p>SpringBoot 基本用 java 写，要会 java 基本操作</p></li><li><p>[配置了 Maven](<a target="_blank" rel="noopener" href="https://p_922.gitee.io/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-maven/">2023-数据库课设-环境搭建-maven - 我的博客 (gitee.io)</a>) 这个 java 代码包管理软件</p></li></ul>
           </div>
 
 
@@ -307,9 +310,27 @@
 <ul>
 <li>Spring 官网</li>
 <li>IDEA 中构建</li>
+<li>其他</li>
 </ul>
-<p>此处选用 IDEA 中构建</p>
-<h3 id><a href="#" class="headerlink" title></a></h3><h3 id="IDEA-中构建"><a href="#IDEA-中构建" class="headerlink" title="IDEA 中构建"></a>IDEA 中构建</h3><p>待补充</p>
+<h3 id="IDEA-中新建-Spring-项目"><a href="#IDEA-中新建-Spring-项目" class="headerlink" title="IDEA 中新建 Spring 项目"></a>IDEA 中新建 Spring 项目</h3><p><img src="/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3%E5%90%AF%E5%8A%A8/create.png" srcset="/img/loading.gif" lazyload></p>
+<h4 id="项目文件中配置-application-properties"><a href="#项目文件中配置-application-properties" class="headerlink" title="项目文件中配置 application.properties"></a>项目文件中配置 <code>application.properties</code></h4><div class="note note-danger">
+            <p><strong>警告!</strong></p><p>Spring 项目启动前要在 <code>application.properties</code> 文件中至少配置个数据库源，这个不配置没法启动</p>
+          </div>
+
+<figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs properties"><span class="hljs-comment"># 项目名\src\main\resources\application.properties</span><br><br><span class="hljs-attr">spring.datasource.url</span>= <span class="hljs-string">jdbc:postgresql://服务器 IP 地址/数据库名字</span><br><span class="hljs-attr">spring.datasource.username</span>= <span class="hljs-string">数据库用户名</span><br><span class="hljs-attr">spring.datasource.password</span>= <span class="hljs-string">数据库密码</span><br></code></pre></td></tr></table></figure>
+
+
+
+<p>配置后可以开始启动了 <code>^_^</code></p>
+<h4 id="开始启动"><a href="#开始启动" class="headerlink" title="开始启动"></a>开始启动</h4><p>点击 IDEA 中的运行，看底部服务窗口 Spring 提示的连接</p>
+<p><img src="/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3%E5%90%AF%E5%8A%A8/start.png" srcset="/img/loading.gif" lazyload></p>
+<p>单击后打开浏览器显示</p>
+<p><img src="/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E5%90%8E%E7%AB%AF-SpringBoot3%E5%90%AF%E5%8A%A8/result.png" srcset="/img/loading.gif" lazyload></p>
+<div class="note note-success">
+            <p>成功!</p><p>启动成功，接下来就可以去写自己的代码了 <code>^_^</code></p>
+          </div>
+
+<p>待补充</p>
 
                 
               </div>
