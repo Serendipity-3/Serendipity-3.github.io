@@ -16,12 +16,12 @@
   <meta name="author" content="Yuan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="介绍管理 java 的代码包依赖，基本 Idea 中用 安装官网下载地址  解压下载的文件然后放到自己想放的目录位置 添加环境变量添加 M2_HOME 到环境变量里  添加 %M2_HOME%\bin 到环境变量的 path 里  检测添加成功没有，打开cmd 或 powshell 输入 Session1mvn --version   配置             Warning由于 maven">
+    <meta name="description" content="介绍管理 java 的代码包依赖，基本 Idea 中用 安装官网下载地址  解压下载的文件然后放到自己想放的目录位置 添加环境变量添加 M2_HOME 到环境变量里  添加 %M2_HOME%\bin 到环境变量的 path 里  检测添加成功没有，打开cmd 或 powshell 输入 Session1mvn --version   配置             注意！由于 maven 的默认下">
 <meta property="og:type" content="article">
 <meta property="og:title" content="2023-数据库课设-环境搭建-maven">
 <meta property="og:url" content="http://example.com/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-maven/index.html">
 <meta property="og:site_name" content="我的博客">
-<meta property="og:description" content="介绍管理 java 的代码包依赖，基本 Idea 中用 安装官网下载地址  解压下载的文件然后放到自己想放的目录位置 添加环境变量添加 M2_HOME 到环境变量里  添加 %M2_HOME%\bin 到环境变量的 path 里  检测添加成功没有，打开cmd 或 powshell 输入 Session1mvn --version   配置             Warning由于 maven">
+<meta property="og:description" content="介绍管理 java 的代码包依赖，基本 Idea 中用 安装官网下载地址  解压下载的文件然后放到自己想放的目录位置 添加环境变量添加 M2_HOME 到环境变量里  添加 %M2_HOME%\bin 到环境变量的 path 里  检测添加成功没有，打开cmd 或 powshell 输入 Session1mvn --version   配置             注意！由于 maven 的默认下">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-maven/download.png">
 <meta property="og:image" content="http://example.com/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-maven/bian1.png">
@@ -31,7 +31,7 @@
 <meta property="og:image" content="http://example.com/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-maven/mirr.png">
 <meta property="og:image" content="http://example.com/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-maven/maven.png">
 <meta property="article:published_time" content="2023-06-20T12:24:14.000Z">
-<meta property="article:modified_time" content="2023-06-22T05:08:32.136Z">
+<meta property="article:modified_time" content="2023-06-22T05:34:54.125Z">
 <meta property="article:author" content="Yuan">
 <meta property="article:tag" content="环境搭建">
 <meta property="article:tag" content="maven">
@@ -228,7 +228,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          408 字
+          404 字
         
       </span>
     
@@ -305,7 +305,7 @@
 
 <p><img src="/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-maven/ver.png" srcset="/img/loading.gif" lazyload></p>
 <h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><div class="note note-warning">
-            <p><strong>Warning</strong></p><p>由于 maven 的默认下载代码网址为国外，国外下载太慢，所以要更换为国内下载地址（换镜像源）</p>
+            <p><strong>注意！</strong></p><p>由于 maven 的默认下载代码网址为国外，国外下载太慢，所以要更换为国内下载地址（换镜像源）</p>
           </div>
 
 
@@ -317,7 +317,7 @@
 <p>找到 <code>settings.xml</code> 文件，在 <mirrors>  </mirrors> 中间，加入阿里镜像</p>
 <p><img src="/2023/06/20/2023-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-maven/mirr.png" srcset="/img/loading.gif" lazyload></p>
 <h3 id="可以选择更改本地仓库目录位置"><a href="#可以选择更改本地仓库目录位置" class="headerlink" title="可以选择更改本地仓库目录位置"></a>可以选择更改本地仓库目录位置</h3><div class="note note-info">
-            <p><strong>Tip</strong></p><p>以后将会从镜像源下载代码到自己电脑上的一个文件夹里，默认在C盘，而自己可以选择这个文件夹放到哪里。</p>
+            <p><strong>提示！</strong></p><p>以后将会从镜像源下载代码到自己电脑上的一个文件夹里，默认在C盘，而自己可以选择这个文件夹放到哪里。</p>
           </div>
 
 
